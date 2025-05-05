@@ -1,2 +1,12 @@
 # Anti-Bear-Child-System
-反熊孩子乱动电脑而专门为破旧电脑设计的系统镜像
+反熊孩子乱动电脑而专门为破旧电脑设计的系统镜像.
+安装教程：
+最新版链接：Part1{https://github.com/Sky-Bird-Mirror/Anti-Bear-Child-System/releases/tag/X64-0.1}Part2{https://github.com/Sky-Bird-Mirror/Anti-Bear-Child-System/releases/tag/X64-0.1-Part}
+两个链接中的所有SWM文件都要下载，复制到U盘的一个文件夹中（必须空文件夹，所有SWM文件在同一文件夹中）
+PE下载链接：https://mirrors.lzu.edu.cn/wepe/WePE_32_V1.3.exe（其他PE也可以，只要可以安装SWM文件）（PE安装教程自行查阅，PE须安装到U盘）
+进入PE，双击打开此电脑，格式化系统盘（请备份重要资料，建议使用PCSET.md中介绍的计算机方案）
+双击打开Dism++，如果弹出提示点确定->接受
+点常用工具->工具箱->系统还原，选择Part1的SWM镜像"ABOS_SF_0.1_x64_Part1.swm"，下面目录选择系统盘（不要选下面任何一个选项，把√去掉！）
+点击确定，等待镜像释放完成，再选择Part2的SWM镜像"ABOS_SF_0.1_x64_Part2.swm"，重复上面的步骤，以此类推（整个过程中不要选格式化）
+释放顺序：Part1 - Part2 - Part3 - Part4 - Part5 - PartFinal
+全部释放完成后，重启电脑，拔出U盘，完成安装（驱动有问题可以在其他电脑下载个驱动精灵万能网卡版拷贝到U盘上然后安装到这台电脑）
